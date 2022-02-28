@@ -35,3 +35,18 @@ The `.forward` method of the wrapped model can be used to get the attribution ma
 
         attribution_map = attribution_model.forward(image)
         segmentation_map = attribution_model(image)
+
+
+## References
+* Buda, M., Saha, A., and Mazurowski, M. A., “Association of genomic subtypes of lower-grade gliomas
+with shape features automatically extracted by a deep learning algorithm,” Computers in Biology and
+Medicine 109, 218–225 (2019).
+* [GradCAM] Selvaraju, R. R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., and Batra, D., “Grad-cam: Visual
+explanations from deep networks via gradient-based localization,” in [Proceedings of the IEEE international
+conference on computer vision ], 618–626 (2017).
+* [GradCAM++] Chattopadhay, A., Sarkar, A., Howlader, P., and Balasubramanian, V. N., “Grad-cam++: Generalized
+gradient-based visual explanations for deep convolutional networks,” in [2018 IEEE Winter Conference on
+Applications of Computer Vision (WACV) ], 839–847 (2018).
+* [ScoreCAM] Wang, H., Wang, Z., Du, M., Yang, F., Zhang, Z., Ding, S., Mardziel, P., and Hu, X., “Score-cam:
+Score-weighted visual explanations for convolutional neural networks,” in [Proceedings of the IEEE/CVF
+conference on computer vision and pattern recognition workshops ], 24–25 (2020).
